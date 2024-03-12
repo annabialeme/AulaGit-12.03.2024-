@@ -1,0 +1,15 @@
+let numero = 10;
+
+let limiteTabuada = 100;
+
+if (limiteTabuada <= 0) {
+    console.log("Insira um limite valido!");
+}
+
+if (limiteTabuada % 1 !== 0) {
+    console.log("Insira um limite com numero inteiro.");
+} else{
+    for (let i = 1; i <= limiteTabuada; i++) {
+        console.log(numero, "x", i, "= ", numero * i);
+    }
+}

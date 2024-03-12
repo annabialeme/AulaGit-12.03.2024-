@@ -1,0 +1,12 @@
+let a = 9;
+let b = 3;
+
+if (a < 0 || b < 0) {
+    console.log("Não é aceito número menor que 0!");
+} else if (a % 1 !== 0 || b % 1 !== 0) {
+    console.log("Não é aceito número decimal!");
+} else {
+    for (let i = 0; i <= b; i++) {
+        console.log(a + " x " + i + " = " + a * i);
+    }
+}
