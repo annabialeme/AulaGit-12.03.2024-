@@ -1,12 +1,5 @@
-let a = 9;
-let b = 3;
+let celsius = 50;
+let fahrenheit;
 
-if (a < 0 || b < 0) {
-    console.log("Não é aceito número menor que 0!");
-} else if (a % 1 !== 0 || b % 1 !== 0) {
-    console.log("Não é aceito número decimal!");
-} else {
-    for (let i = 0; i <= b; i++) {
-        console.log(a + " x " + i + " = " + a * i);
-    }
-}
+fahrenheit = celsius * 9 / 5 + 32;
+console.log("A temperatura agora está em " + celsius.toFixed(2)+ " celsius ou " + fahrenheit.toFixed(2)+ " fahrenheit")
