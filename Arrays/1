@@ -1,0 +1,5 @@
+const array = ['goiaba','manga', 'kiwi','banana']
+console.log(array) //['goiaba','manga', 'kiwi','banana']
+
+array.push('amora','pitaya')
+console.log(array) //['goiaba','manga', 'kiwi','banana','amora','pitaya']
